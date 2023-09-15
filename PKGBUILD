@@ -5,7 +5,7 @@ pkgdesc="A huge wallpaper pack, installable with pacman!"
 arch=("x86_64")
 url="https://github.com/Mason-17/wallpapers"
 license=("custom")
-source=("https://github.com/Mason-17/wallpapers/releases/download/$pkgver/wallpapers.tar.xz")
+source=("https://github.com/Mason-17/wallpapers/releases/download/$pkgver/wallpapers.tar.gz")
 sha512sums=("SKIP")
 package() {
 	install -Dm644 abstract/* -t "$pkgdir/usr/share/backgrounds/viper/abstract/"

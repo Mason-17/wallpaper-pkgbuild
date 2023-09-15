@@ -1,5 +1,5 @@
 pkgname="Wallpapers"
-pkgver=".0"
+pkgver="5.0"
 pkgrel="1"
 pkgdesc="A huge wallpaper pack, installable with pacman!"
 arch=("x86_64")

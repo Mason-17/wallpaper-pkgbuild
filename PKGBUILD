@@ -23,4 +23,5 @@ package() {
 	install -Dm644 star-wars/* -t "$pkgdir/usr/share/backgrounds/viper/star-wars/"
 	install -Dm644 sus/* -t "$pkgdir/usr/share/backgrounds/viper/sus/"
 	install -Dm644 warhammer-40k/* -t "$pkgdir/usr/share/backgrounds/viper/warhammer-40k/"
+	install -Dm644 retro-logos/* -t "$pkgdir/usr/share/backgrounds/viper/retro-logos/"
 }

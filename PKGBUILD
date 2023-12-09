@@ -17,11 +17,12 @@ package() {
 	install -Dm644 halo/* -t "$pkgdir/usr/share/backgrounds/viper/halo/"
 	install -Dm644 landscapes/* -t "$pkgdir/usr/share/backgrounds/viper/landscapes/"
 	install -Dm644 linux/* -t "$pkgdir/usr/share/backgrounds/viper/linux/"
-	install -Dm644 mechs/* -t "$pkgdir/usr/share/backgrounds/viper/mechs/"
 	install -Dm644 'Metal Gear Rising Revengeance'/* -t "$pkgdir/usr/share/backgrounds/viper/'Metal Gear Rising Revengeance'/"
 	install -Dm644 sonic/* -t "$pkgdir/usr/share/backgrounds/viper/sonic/"
 	install -Dm644 star-wars/* -t "$pkgdir/usr/share/backgrounds/viper/star-wars/"
 	install -Dm644 sus/* -t "$pkgdir/usr/share/backgrounds/viper/sus/"
 	install -Dm644 warhammer-40k/* -t "$pkgdir/usr/share/backgrounds/viper/warhammer-40k/"
 	install -Dm644 retro-logos/* -t "$pkgdir/usr/share/backgrounds/viper/retro-logos/"
+	install -Dm644 goof/* -t "$pkgdir/usr/share/backgrounds/viper/goof/"
+	install -Dm644 ultrakill/* -t "$pkgdir/usr/share/backgrounds/viper/ultrakill/"
 }
